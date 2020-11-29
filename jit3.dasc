@@ -1,8 +1,9 @@
 // JIT for Brainf*ck.
 
 #include <stdint.h>
+#include "dynasm-driver.h"
+|.arch x64 
 
-|.arch x64
 |.actionlist actions
 |
 |// Use rbx as our cell pointer.
